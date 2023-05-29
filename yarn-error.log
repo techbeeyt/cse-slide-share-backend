@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add googleapis request cors url-parse query-string body-parser axios
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\msys64\mingw64\bin;C:\Users\mmcse\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Go\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Users\mmcse\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Users\mmcse\.cargo\bin;C:\Python27\python.exe;C:\Users\mmcse\AppData\Local\Microsoft\WindowsApps;C:\Users\mmcse\AppData\Local\Yarn\bin;C:\Users\mmcse\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mmcse\flutter\flutter\bin;C:\Users\mmcse\AppData\Roaming\npm;C:\Users\mmcse\go\bin;C:\Users\mmcse\AppData\Local\Programs\Fiddler;C:\Users\mmcse\AppData\Roaming\nvm;C:\Program Files\nodejs;;D:\Installed Softwares\PyCharm Community Edition 2023.1\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+npm manifest: 
+  {
+    "name": "js-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
